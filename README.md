@@ -1,11 +1,11 @@
-# Adopet API Testing
+# 🐾 Adopet E2E Testing
 
 ## 📌 Sobre o projeto
-Este projeto utiliza **Cypress** para testes de API no sistema **Adopet**. O objetivo é garantir a qualidade e confiabilidade das respostas da API.
+Este projeto utiliza **Cypress** para testes End-to-End (E2E), validando tanto a **API** quanto a interface do sistema **Adopet**. O objetivo é garantir a qualidade e confiabilidade da plataforma em diferentes fluxos de usuário.
 
 ## 🚀 Tecnologias utilizadas
-- [Cypress](https://www.cypress.io/) - Testes End-to-End
-- [Mochawesome](https://www.npmjs.com/package/mochawesome) - Relatórios de testes detalhados
+- [Cypress](https://www.cypress.io/) - Testes E2E (UI + API)
+- [Mochawesome](https://www.npmjs.com/package/mochawesome) - Relatórios detalhados de testes
 
 ## 🛠 Configuração do ambiente
 
@@ -23,22 +23,22 @@ Este projeto utiliza **Cypress** para testes de API no sistema **Adopet**. O obj
    ```
 
 ## 🏃‍♀️ Executando os testes
-Para rodar os testes de API via Cypress, utilize um dos comandos abaixo:
 
-- Executar testes no modo interativo:
-  ```sh
-  npx cypress open
-  ```
-- Executar testes no terminal:
-  ```sh
-  npx cypress run
-  ```
-- Gerar relatório com **Mochawesome**:
-  ```sh
-  npx cypress run --reporter mochawesome
-  ```
+### 🔹 Testes E2E no modo interativo
+```sh
+npx cypress open
+```  
+### 🔹 Testes E2E no terminal
+```sh
+npx cypress run
+```  
+### 🔹 Gerar relatório com **Mochawesome**
+```sh
+npx cypress run --reporter mochawesome
+```
 
 ## 📊 Acessando os relatórios
+
 Após rodar os testes com Mochawesome, o relatório será gerado na pasta:
 ```
 /cypress/reports/mochawesome-report.html
@@ -46,6 +46,7 @@ Após rodar os testes com Mochawesome, o relatório será gerado na pasta:
 Para visualizar, basta abrir o arquivo **mochawesome-report.html** no navegador.
 
 ## 📢 Contribuição
+
 1. Crie um branch para sua feature ou correção de bug:
    ```sh
    git checkout -b minha-feature
@@ -58,6 +59,7 @@ Para visualizar, basta abrir o arquivo **mochawesome-report.html** no navegador.
    ```sh
    git push origin minha-feature
    ```
-4. Abra um Pull Request 🚀
+4. Abra um **Pull Request** 🚀
+
 
 
